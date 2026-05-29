@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/00xmorty/tahoe-memory-hog-reaper/actions/workflows/ci.yml"><img alt="CI" src="https://img.shields.io/github/actions/workflow/status/00xmorty/tahoe-memory-hog-reaper/ci.yml?branch=main&label=CI&style=flat-square"></a>
-  <a href="https://github.com/00xmorty/tahoe-memory-hog-reaper/releases"><img alt="Release" src="https://img.shields.io/github/v/release/00xmorty/tahoe-memory-hog-reaper?include_prereleases&style=flat-square"></a>
+  <a href="https://github.com/00xmorty/tahoe-memory-hog-reaper/releases"><img alt="Release draft" src="https://img.shields.io/badge/release-v0.1.0%20draft-orange?style=flat-square"></a>
   <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square"></a>
   <img alt="macOS" src="https://img.shields.io/badge/platform-macOS-black?style=flat-square&logo=apple">
   <img alt="zsh" src="https://img.shields.io/badge/shell-zsh-89e051?style=flat-square">
