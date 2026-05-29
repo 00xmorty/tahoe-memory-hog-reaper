@@ -147,6 +147,28 @@ kernel_task launchd WindowServer loginwindow syslogd notifyd opendirectoryd
 
 If you want a tool that automatically kills processes in the background, this is not that tool. If you want a small auditable CLI that helps you understand what is happening before you act, this is that tool.
 
+## FAQ
+
+### Does it kill processes automatically?
+
+No. The default behavior is diagnostic only. `reap` also dry-runs unless you pass `--confirm`.
+
+### Does it require sudo?
+
+No. It uses standard macOS command-line tools and does not ask for elevated privileges.
+
+### Does it install a daemon or LaunchAgent?
+
+No. It is a single zsh script. Nothing runs in the background after the command exits.
+
+### What happens in confirm mode?
+
+`reap --interactive --confirm` lists candidates, refuses protected system process names, and asks you to type the exact PID before sending `TERM`.
+
+### Why not Activity Monitor?
+
+Activity Monitor is useful. This tool is for a quick terminal-first check: memory pressure, swap, top RSS processes, and threshold scanning in one place.
+
 ## Requirements
 
 - macOS
